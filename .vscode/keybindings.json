@@ -1,0 +1,59 @@
+// Place your key bindings in this file to override the defaults
+[
+  // 実装箇所に移動
+  {
+    "key": "ctrl+u ctrl+i",
+    "command": "editor.action.goToImplementation",
+    "when": "editorFocus"
+  },
+  // 宣言箇所に移動
+  {
+    "key": "ctrl+u ctrl+d",
+    "command": "editor.action.goToDeclaration",
+    "when": "editorFocus"
+  },
+  // サイドバーへの移動
+  {
+    "key": "ctrl+w h",
+    "command": "workbench.action.focusSideBar",
+    "when": "editorFocus"
+  },
+  // サイドバーからの移動
+  {
+    "key": "ctrl+w l",
+    "command": "workbench.action.focusFirstEditorGroup",
+    "when": "!editorFocus"
+  },
+  // サイドバーからの移動
+  {
+    "key": "ctrl+w l",
+    "command": "workbench.action.navigateEditorGroups",
+    "when": "!editorFocus"
+  },
+  // サイドバーからファイルを開く
+  {
+    "key": "Enter",
+    "command": "list.select",
+    "when": "explorerViewletVisible && filesExplorerFocus"
+  },
+  // Suggestion
+  {
+    "key": "ctrl+k",
+    "command": "acceptSelectedSuggestion"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorFocus"
+  },
+  {
+    "key": "ctrl+n",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
+  {
+    "key": "ctrl+p",
+    "command": "selectPrevSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  }
+]

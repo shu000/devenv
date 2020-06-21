@@ -1,0 +1,42 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.detectIndentation": false,
+  "files.trimTrailingWhitespace": true,
+  "editor.minimap.enabled": false,
+  "vim.insertModeKeyBindings": [
+      {
+          "before": ["j","j"],
+          "after": ["<Esc>"]
+      }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+      {
+          "before": [";"],
+          "after": [":"]
+      },
+      {
+          "before": [":"],
+          "after": [";"]
+      }
+  ],
+  "vim.useSystemClipboard": true,
+  "vim.hlsearch": true,
+  "vim.easymotion": true,
+  "vim.visualstar": true,
+  "vim.useCtrlKeys": true,
+
+  "workbench.iconTheme": "vscode-icons",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "git.autofetch": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "git.confirmSync": false,
+  "C_Cpp.updateChannel": "Insiders",
+  "workbench.startupEditor": "newUntitledFile",
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false
+}
